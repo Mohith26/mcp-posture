@@ -1,0 +1,7 @@
+5 MCP server definitions
+- claude-code:-:filesystem [stdio] @modelcontextprotocol/server-filesystem@2.2.0 UNPINNED
+- claude-code:-:memory [stdio] @modelcontextprotocol/server-memory@2.1.0 UNPINNED
+- claude-code:-:remote-bridge [stdio] mcp-remote@0.1.15 VULN-CRITICAL
+    CRITICAL GHSA-6xpm-ggf7-wc3p in mcp-remote@0.1.15 (self)
+- claude-code:-:git [stdio] mcp-server-git@2026.11.4 UNPINNED
+- claude-code:-:docs [http] https://mcp.example.com/mcp

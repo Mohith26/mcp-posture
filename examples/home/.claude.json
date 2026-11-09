@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "filesystem": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/me/projects"]},
+    "memory": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-memory"]},
+    "remote-bridge": {"command": "npx", "args": ["-y", "mcp-remote@0.1.15", "https://mcp.example.com/sse"]},
+    "git": {"command": "uvx", "args": ["mcp-server-git", "--repository", "/Users/me/projects/app"]},
+    "docs": {"type": "http", "url": "https://mcp.example.com/mcp"}
+  }
+}
